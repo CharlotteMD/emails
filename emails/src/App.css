@@ -7,6 +7,12 @@ header {
 
 .intro {
   border-bottom: solid lightgrey 1px;
+  padding: 20px;
+}
+
+.intro h3 {
+  font-weight: normal;
+  width: 50%;
 }
 
 .mainform {
@@ -32,6 +38,7 @@ input {
   background-color: lightgrey;
   display: block;
   width: 45%;
+  padding: 5px;
 }
 
 .radio input {
@@ -55,4 +62,13 @@ button {
   position: fixed;
   right: 100px;
   bottom: 100px;
+}
+
+footer {
+  padding: 20px;
+}
+
+footer p {
+  margin-left: 20px;
+  font-size: 10px;
 }

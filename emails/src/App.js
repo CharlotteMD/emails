@@ -22,6 +22,10 @@ class App extends Component {
           <Preview/>
         </section>
 
+        <footer>
+          <p>Having trouble? <a href="www.abc.com">Contact your regional IT Support</a></p>
+        </footer>
+
       </div>
     );
   }
