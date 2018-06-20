@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import MainForm from './components/MainForm';
+import Preview from './components/Preview';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         </section>
 
         <MainForm/>
+        <Preview/>
 
       </div>
     );

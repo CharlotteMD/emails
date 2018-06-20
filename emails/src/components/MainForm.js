@@ -4,7 +4,7 @@ class MainForm extends Component {
   render() {
     return (
       <div>
-        <form>
+        <form className="mainform">
           <h3>Who, what, and where</h3>
 
           <label className="mainlabel">
@@ -17,20 +17,23 @@ class MainForm extends Component {
             <input type="text"></input>
           </label>
 
-          <label className="mainlabel">
-            Office:
-            <input type="radio" value="lon"/>
-            <label>London</label>
+          <div className="radio">
+            <label className="mainlabel">
+              <h4>Office:</h4>
+              <input type="radio" value="lon"/>
+              <label>London, United Kingdom</label>
 
-            <input type="radio" value="ny"/>
-            <label>New York</label>
+              <input type="radio" value="ny"/>
+              <label>New York, NY</label>
 
-            <input type="radio" value="sh"/>
-            <label>Shanghai</label>
+              <input type="radio" value="ber"/>
+              <label>Berlin, Germany</label>
 
-            <input type="radio" value="tok"/>
-            <label>Tokyo</label>
-          </label>
+              <input type="radio" value="tok"/>
+              <label>Tokyo, Japan</label>
+            </label>
+          </div>
+
 
           <h3>How to contact you</h3>
 
@@ -51,17 +54,19 @@ class MainForm extends Component {
 
           <h3>Your support/assistant details</h3>
 
-          <label className="mainlabel">
-            Please select one:
-            <input type="radio" value="na"/>
-            <label>Not applicable</label>
+          <div className="radio">
+            <label className="mainlabel">
+              <h4>Please select one:</h4>
+              <input type="radio" value="na"/>
+              <label>Not applicable</label>
 
-            <input type="radio" value="ea"/>
-            <label>I support another team member(s)</label>
+              <input type="radio" value="ea"/>
+              <label>I support another team member(s)</label>
 
-            <input type="radio" value="snr"/>
-            <label>I have an assistant</label>
-          </label>
+              <input type="radio" value="snr"/>
+              <label>I have an assistant</label>
+            </label>
+          </div>
 
           <button>Next</button>
 
