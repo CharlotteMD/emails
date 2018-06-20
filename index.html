@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Signature Creator</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Signature Creator</h1>
+    </header>
+
+    <section class="intro">
+      <h2>Welcome to Signature Creator</h2>
+      <h3>Please fill out the following details to create your email signature, once you have filled out the form you will be able to preview and apply to your email account.</h3>
+    </section>
+
+    <section class="form">
+
+      <form class="main" action="index.html" method="post">
+        <h3>Who, what, and where</h3>
+        
+        <label for="name">Full Name</label>
+        <input type="text" name="name">
+
+        <label for="role">Role</label>
+        <input type="text" name="role">
+
+        <label for="office">Please select your office:</label>
+        <input type="radio" name="office" value="lon">London<br>
+        <input type="radio" name="office" value="nyc">New York<br>
+        <input type="radio" name="office" value="sf">San Francisco<br>
+        <input type="radio" name="office" value="tok">Tokyo<br>
+
+
+        <h3>How to contact you</h3>
+
+        <label for="email">Email Address</label>
+        <input type="email" name="email">
+
+        <label for="phone">Telephone number (include dial code)</label>
+        <input type="tel" name="phone">
+
+        <label for="mobile">Mobile number (include dial code)</label>
+        <input type="tel" name="mobile">
+
+
+        <h3>Your support/assistant details</h3>
+
+        <label for="assistant">Please select one:</label>
+        <input type="radio" name="assistant" value="none">Not applicable<br>
+        <input type="radio" name="assistant" value="ea">I support another team member(s)<br>
+        <input type="radio" name="assistant" value="vp">I have an assistant<br>
+
+        <button type="submit" name="next">Next</button>
+      </form>
+
+    </section>
+
+  </body>
+</html>
