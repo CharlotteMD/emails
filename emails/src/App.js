@@ -17,8 +17,10 @@ class App extends Component {
           <h3>Please fill out the following details to create your email signature, once you have filled out the form you will be able to preview and apply to your email account.</h3>
         </section>
 
-        <MainForm/>
-        <Preview/>
+        <section className="mainbody">
+          <MainForm/>
+          <Preview/>
+        </section>
 
       </div>
     );

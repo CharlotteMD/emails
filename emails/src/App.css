@@ -5,10 +5,17 @@ header {
   padding: 20px;
 }
 
+.intro {
+  border-bottom: solid lightgrey 1px;
+}
+
 .mainform {
-  width: 50%;
+  width: 60%;
   padding: 20px;
-  margin: 20px;
+  margin-left: 20px;
+  border: solid lightgrey 1px;
+  border-left: none;
+  border-top: none;
 }
 
 label {
@@ -37,4 +44,15 @@ button {
   border: 3px black solid;
   padding: 5px;
   margin: 5px;
+}
+
+.mainbody {
+  position: relative;
+}
+
+.preview {
+  width: 20%;
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
 }

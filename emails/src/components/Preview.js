@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class Preview extends Component {
   render() {
     return (
-      <div>
+      <div className="preview">
+        <h3>Signature Preview:</h3>
         <p className="name">Name</p>
         <p className="role">Job Title</p>
         <p className="office" id="location">Office</p>
