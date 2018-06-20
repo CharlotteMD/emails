@@ -19,7 +19,7 @@
 
       <form class="main" action="index.html" method="post">
         <h3>Who, what, and where</h3>
-        
+
         <label for="name">Full Name</label>
         <input type="text" name="name">
 
@@ -51,6 +51,34 @@
         <input type="radio" name="assistant" value="none">Not applicable<br>
         <input type="radio" name="assistant" value="ea">I support another team member(s)<br>
         <input type="radio" name="assistant" value="vp">I have an assistant<br>
+
+        <form class="assistant" action="index.html" method="post">
+          <h4>I have an assistant</h4>
+
+          <label for="name">Full Name</label>
+          <input type="text" name="name2">
+
+          <label for="role">Role</label>
+          <input type="text" name="role2">
+
+          <label for="email">Email Address</label>
+          <input type="email" name="email2">
+
+          <label for="phone">Telephone number (include dial code)</label>
+          <input type="tel" name="phone2">
+
+          <label for="mobile">Mobile number (include dial code)</label>
+          <input type="tel" name="mobile2">
+        </form>
+
+        <form class="support" action="index.html" method="post">
+          <h4>I support another team member(s)</h4>
+
+          <label for="name">Enter full name of team member(s) you support:</label>
+          <input type="text" name="name3">
+          <button type="add" name="add">Add additional name</button>
+
+        </form>
 
         <button type="submit" name="next">Next</button>
       </form>
