@@ -90,4 +90,5 @@ footer p {
 
 .preview .office {
   font-size: 9pt;
+  text-transform: lowercase;
 }
