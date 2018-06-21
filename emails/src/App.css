@@ -75,6 +75,7 @@ footer p {
 
 .preview {
   font-family: Arial, sans-serif;
+  text-transform: capitalize;
 }
 
 .preview .name {
