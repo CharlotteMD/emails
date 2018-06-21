@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import MainForm from './components/MainForm';
+import BasicForm from './components/BasicForm';
 import Preview from './components/Preview';
 
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
         </section>
 
         <section className="mainbody">
-          <MainForm/>
+          <BasicForm/>
           <Preview/>
         </section>
 
