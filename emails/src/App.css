@@ -72,3 +72,21 @@ footer p {
   margin-left: 20px;
   font-size: 10px;
 }
+
+.preview {
+  font-family: Arial, sans-serif;
+}
+
+.preview .name {
+  font-size: 11pt;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.preview .role {
+  font-size: 10pt;
+}
+
+.preview .office {
+  font-size: 9pt;
+}
