@@ -10,10 +10,20 @@ class BasicFormBody extends Component {
       phone: '',
       mobile: ''
     };
+
+    this.handleBasicChange = this.handleBasicChange.bind(this);
   }
 
   handleBasicChange = (e) => {
-    this.setState({[e.target.name]: e.target.value});
+    // this.setState({[e.target.name]: e.target.value});
+    const target = e.target;
+    const name = e.target.name;
+    this.setState(() => {
+      return {
+        [name]: target.value
+      };
+    });
+    console.log(e.target.value);
   }
 
   render() {
