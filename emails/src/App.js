@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import BasicFormBody from './components/BasicFormBody';
-import Preview from './components/Preview';
+// import BasicFormBody from './components/BasicFormBody';
+// import Preview from './components/Preview';
+import BasicForm from './components/BasicForm';
 
 class App extends Component {
   render() {
@@ -18,8 +19,9 @@ class App extends Component {
         </section>
 
         <section className="mainbody">
-          <BasicFormBody/>
-          <Preview/>
+          <BasicForm />
+          {/* <BasicFormBody/> */}
+          {/* <Preview/> */}
         </section>
 
         <footer>
